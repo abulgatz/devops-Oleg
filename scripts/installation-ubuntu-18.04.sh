@@ -30,7 +30,7 @@ mysql -u root --execute="GRANT ALL ON bookstack.* TO 'bookstack'@'localhost';FLU
 
 # Download BookStack
 cd /var/www
-git clone https://github.com/BookStackApp/BookStack.git --branch release --single-branch bookstack
+git clone https://github.com/abulgatz/BookStack-Oleg.git --branch release --single-branch bookstack
 BOOKSTACK_DIR="/var/www/bookstack"
 cd $BOOKSTACK_DIR
 
